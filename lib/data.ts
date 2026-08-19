@@ -3,7 +3,7 @@
 export const site = {
   name: "Jorgen Konini",
   role: "Software Engineer — React & React Native",
-  email: "koninijorgen@gmail.com",
+  email: "jorgenkonini@gmail.com",
   github: "https://github.com/Jorgen-Konini",
   githubLabel: "github.com/Jorgen-Konini",
   linkedin: "https://www.linkedin.com/in/jorgen-konini-635722255",
@@ -28,24 +28,45 @@ export const about = {
 
 export const experience = [
   {
-    title: "Software Engineer · Ritech International",
-    period: "20XX — 20XX", // TODO: fill in real dates
-    tagline: "US healthcare & HR platforms",
+    title: "Software Engineer · Ritech International AG",
+    period: "Dec 2021 — Present",
+    tagline: "US healthcare & HRA platforms",
     bullets: [
-      "Built a patient pharmacy app and an HRA reimbursement platform in React Native, React, and TypeScript, serving US healthcare providers.",
-      "Led a full TypeScript migration and an AngularJS-to-React rewrite across the product.",
-      "Ran sprint planning, requirements definition, and stakeholder demos on two-week delivery cycles.",
+      "Engineered and maintained two large-scale production platforms serving US healthcare providers — a patient pharmacy services app (prescription refills, medication transfers, secure messaging) and an HRA employee reimbursement web platform, in React, React Native, and TypeScript.",
+      "Led a full TypeScript migration of the frontend codebase and drove a rewrite of core AngularJS modules to React.",
+      "Participated in sprint planning, broke feature specs into dev tasks, and presented release demos to stakeholders on two-week cycles.",
+      "Mentored junior developers through code reviews, pair programming, and architectural guidance.",
     ],
-    tags: ["React Native", "React", "TypeScript"],
+    tags: ["React Native", "React", "TypeScript", "AngularJS"],
   },
   {
-    title: "Frontend Lead · Rightsearch & Advocar",
-    period: "20XX — 20XX", // TODO: fill in real dates
+    title: "React Developer & Frontend Team Lead · Rightsearch & Advocar",
+    period: "Nov 2020 — Aug 2021",
     tagline: "Legal services platform rebuild",
     bullets: [
-      "Led the frontend team through a ground-up React and TypeScript rewrite of a legacy jQuery/CakePHP stack.",
+      "Led the full frontend rebuild of a legacy legal services platform, replacing an outdated jQuery/CakePHP stack with a modern React and TypeScript architecture.",
+      "Assigned and coordinated frontend tasks across the team, ran pre-release demos, and managed communication between the dev team and product stakeholders.",
+      "Delivered the rewrite on schedule across multiple sprint cycles, with demo checkpoints before each release.",
     ],
     tags: ["React", "TypeScript", "Team lead"],
+  },
+  {
+    title: "Web & Mobile Application Developer · Aldek Italia",
+    period: "Mar 2021 — Nov 2021",
+    tagline: "Social & membership platform",
+    bullets: [
+      "Built a web and mobile social networking platform with member management, subscription tracking, fee payments, file approvals, and connection matching.",
+    ],
+    tags: ["React", "React Native", "Laravel", "MySQL"],
+  },
+  {
+    title: "Freelance Software Developer · Independent",
+    period: "Nov 2019 — Mar 2021",
+    tagline: "Custom web applications",
+    bullets: [
+      "Delivered custom web application projects for clients, managing the full project lifecycle from requirements gathering through delivery.",
+    ],
+    tags: ["Web apps", "Full lifecycle"],
   },
 ];
 
