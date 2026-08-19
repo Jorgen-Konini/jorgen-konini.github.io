@@ -109,3 +109,24 @@ export const skills = [
   { group: "Tooling", items: ["Git", "Docker", "Xcode", "Android Studio", "Jira"] },
   { group: "Product", items: ["Sprint planning", "User stories", "Stakeholder demos", "Agile / Scrum"] },
 ];
+
+export const education = [
+  {
+    title: "MSc Management Information Systems",
+    org: "Universiteti Mesdhetar i Shqipërisë, Tirana",
+    period: "2018 — 2020",
+    kind: "degree",
+  },
+  {
+    title: "BSc Computer Engineering",
+    org: "Epoka University, Tirana",
+    period: "2015 — 2018",
+    kind: "degree",
+  },
+  {
+    title: "AI Agents Fundamentals",
+    org: "Hugging Face",
+    period: "Feb 2025",
+    kind: "certification",
+  },
+];

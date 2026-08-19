@@ -1,4 +1,4 @@
-import { site, about, experience, projects, skills } from "@/lib/data";
+import { site, about, experience, projects, skills, education } from "@/lib/data";
 import {
   ArrowRightIcon,
   ClockIcon,
@@ -206,9 +206,32 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="education" className="section section-alt">
+          <div className="container">
+            <div className="section-head">
+              <div className="eyebrow">05 / EDUCATION</div>
+              <h2 className="section-title">Education &amp; certifications.</h2>
+            </div>
+            <div className="edu-grid">
+              {education.map((item) => (
+                <div key={item.title} className="edu-card">
+                  <div className="edu-head">
+                    <span className="edu-period">{item.period}</span>
+                    {item.kind === "certification" && (
+                      <span className="edu-badge">certification</span>
+                    )}
+                  </div>
+                  <div className="edu-title">{item.title}</div>
+                  <div className="edu-org">{item.org}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="contact" className="section contact">
           <div className="container contact-inner">
-            <div className="eyebrow">05 / CONTACT</div>
+            <div className="eyebrow">06 / CONTACT</div>
             <h2>Let&apos;s build something together.</h2>
             <p className="contact-sub">
               Open to remote roles and interesting projects — the fastest way to reach me is
