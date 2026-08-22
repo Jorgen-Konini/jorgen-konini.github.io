@@ -73,14 +73,14 @@ export const experience = [
 export const projects = [
   {
     name: "gymplatform-backend",
-    url: "https://github.com/jorgenPersonal/gymplatform-backend",
+    url: "https://github.com/Jorgen-Konini/gymplatform-backend",
     description:
       "Multi-tenant gym SaaS backend in Go — PostgreSQL row-level security for tenant isolation, RBAC, Redis job queue, AI coaching via Claude with token budgets and output validation, OpenTelemetry, and testcontainers integration tests.",
     tags: ["Go", "PostgreSQL", "Redis", "Claude API"],
   },
   {
     name: "gymplatform-frontend",
-    url: "https://github.com/jorgenPersonal/gymplatform-frontend",
+    url: "https://github.com/Jorgen-Konini/gymplatform-frontend",
     description:
       "React and React Native client for the gym platform — one TypeScript codebase serving members and coaches on web and mobile.",
     tags: ["React", "React Native", "TypeScript"],
